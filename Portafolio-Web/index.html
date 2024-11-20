@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta n<!--Meta datos-->
+    <meta name="title" content="Portafolio / Jhon Escalona">
+    <meta name="description" content="Soy una desarrollador web con más de 3 años de experiencia en el campo, me especializó en lenguajes como HTML 5, CSS Y JAVASCRIPT. También, me especializo en diseño gráfico y animaciones, ofrezco servicios de páginas web modernas adaptables a todos los dispositivos móviles y computador, creación de Mockups para tus ideas de negocios y creación de animaciones de Lading Page o imágenes. Y por último también desarrollo y vendo software para negocios.">
+    <meta name="keywords" content="Páginas Web, Lading Page, Mockups, Software, diseño web responsive
+    , Responsive Mobile, HTML5, CSS3, JAVASCRIPT, PHOTOSPOP">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="Spanish">
+    <meta name="author" content="Jhon Escalona">
+    <!----->
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ScalonaStudioPlus.github.io">
+    <meta property="og:title" content="Portafolio / Jhon Escalona" />
+    <meta property="og:description" content="Soy una desarrollador web con más de 3 años de experiencia en el campo, me especializó en lenguajes como HTML 5, CSS Y JAVASCRIPT. También, me especializo en diseño gráfico y animaciones, ofrezco servicios de páginas web modernas adaptables a todos los dispositivos móviles y computador, creación de Mockups para tus ideas de negocios y creación de animaciones de Lading Page o imágenes. Y por último también desarrollo y vendo software para negocios." />
+    <meta property="og:image" content="https://ScalonaStudioPlus.github.io/img/portafolio.jpg" />
+    <!----->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://jhonescalona.com/" />
+    <meta property="twitter:title" content="Portafolio / Jhon Escalona" />
+    <meta property="twitter:description" content="Soy una desarrollador web con más de 3 años de experiencia en el campo, me especializó en lenguajes como HTML 5, CSS Y JAVASCRIPT. También, me especializo en diseño gráfico y animaciones, ofrezco servicios de páginas web modernas adaptables a todos los dispositivos móviles y computador, creación de Mockups para tus ideas de negocios y creación de animaciones de Lading Page o imágenes. Y por último también desarrollo y vendo software para negocios." />
+    <meta property="twitter:image" content="https://ScalonaStudioPlus.github.io/img/portafolio.jpg" />
+    <!----->
+
+    <!--links css-->
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="shortcut icon" href="img/funko'pop.png" type="image/x-icon">
+    
+    <!----->
+
+    <!--links fuentes y iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!---->
+
+    <!--script-->
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> <!--Link de iconos-->
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> <!--Link de iconos-->
+    <!---->
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> <!--Link de iconos-->
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> <!--Link de iconos-->
+    <title>Portafolio / Jhon Scalona</title>
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+               
+                <img src="img/logoverse.png" alt="logo personal" width="150px"><br>
+                <a href="#">Jhon Design</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#servicios" onclick="seleccionar()">SERVICIOS</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/jhon.jpg" alt="" height="200px" style="margin-top: 64px;">
+            </div>
+            <h1>Jhon Escalona</h1>
+            <h2><img id="especial" src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=F7F7F7&width=435&lines=Desarrollador++Front-End+;%26+Dise%C3%B1ador+%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB%F0%9F%90%B1%E2%80%8D%F0%9F%92%BB" alt="Typing SVG"/></h2>
+            <br>
+            <h2>Programo Aplicaciones Para Negocios & Empresas.<br>Páginas Web Responsive Y Mockups</h2>
+            <div class="redes">
+                <a href="https://github.com/ScalonaStudioPlus" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jhon-escalona-059037329/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://youtube.com/@saberfinanciero14?si=KlUcM4RNj4HsMVL_" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <center>
+                <img src="img/funko'pop.png" alt="diseño de Funko Pop" class="funko">
+                <a href="Curriculum_.pdf"><button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button></a>
+            </center>
+            <p style="text-align: justify;"><span>Hola, soy Jhon Escalona.</span> Trabajo con Desarrollo Web y Aplicaciones. Puedo realizar diseños productivos y cosas cool.</p>
+            <p style="text-align: justify;">Soy un apasionado programador Front-end con 3 años de experiencia en el desarrollo de Interfaces De Usuario (UX / UI) atractivas y
+            funcionales. Mi enfoque se centra en crear experiencias web y responsivas que no solo cumplan con los estándares de diseño, sino que
+            también ofrezcan un rendimiento óptimo en todos los dispositivos.
+             <br><br>
+            Continuamente aprendiendo y adquiriendo nuevas habilidades en función a las actuales y futuras demandas y tendencias tecnológicas. Mi enfoque es siempre adaptar cada proyecto a las necesidades específicas del cliente, priorizando la calidad y los plazos. Ya sea que estés buscando un rediseño, una aplicación personalizada o una  <strong>Lading Page completa</strong>  , puedo ayudarte a transformar tu idea en realidad!.
+             <br><br>
+            Estoy siempre abierto a nuevos desafíos. Si quieres llevar tu negocio o proyecto al siguiente nivel, no dudes en contactarme. ¡Hablemos sobre cómo puedo ayudarte! </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <center>
+                        <h3>Certificados</h3>
+                    </center>
+                    
+                    <ul>
+                        <li>
+                            <img src="certificados/html-certificado.png" alt="certificado de HTML5" class="certi1">
+                            <a href="certificados/html-certificado.png"><button>
+                               Ver Certificado <i class="fa-solid fa-download"></i>
+                                <span class="overlay"></span>
+                            </button>
+                        </a>
+                        </li>
+                        <li>
+                            <img src="certificados/certificado-css.png" alt="certificado de CSS3" class="certi2">
+                            <a href="certificados/certificado-css.png"><button>
+                                Ver Certificado <i class="fa-solid fa-download"></i>
+                                <span class="overlay"></span>
+                            </button>
+                        </a>
+                        </li>
+                        <li>
+                            <img src="certificados/certificado-google1.png" alt="certificado de google introducción al Desarrollo Web I" class="certi3">
+                            <a href="certificados/certificado-google1.png"><button>
+                                Ver Certificado <i class="fa-solid fa-download"></i>
+                                <span class="overlay"></span>
+                            </button>
+                        </a>
+                        </li>
+                        <li>
+                            <img src="certificados/certificado-google2.png" alt="certificado de google introducción al Desarrollo Web II" class="certi4">
+                            <a href="certificados/certificado-google2.png"><button>
+                                Ver Certificado<i class="fa-solid fa-download"></i>
+                                <span class="overlay"></span>
+                            </button>
+                        </a>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <center>
+                        <h3>Diploma</h3>
+                    </center>
+                    
+                    <div class="contenedor-intereses">
+                            <img src="certificados/dipoma-sistemas-informaticos.png" alt="Diploma De Técnicos de Informática"   class="diploma">
+                             <img src="certificados/fullstack.png" alt="Certificado FullStack" class="fullstack">
+                            <img src="certificados/certifiacdo-venta1.png" alt="Certificado de oratorio de venta" class="oratorio1">
+                            <img src="certificados/Certificado-oratorioVentas2.png" alt="Certificado de venta oratorio ejecutivo" class="oratorio2">
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <!--SECCIÓN SERVICIOS-->
+       <section id="servicios" class="servicios">
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <img src="img/web.png" alt="logo web" height="130px">
+                        </div>
+                    </div>
+                    <h3>Desarrollo Web</h3>
+                    <p>!Diseño y Desarrollo de Páginas Web Modernas!<br>Obten tu página web para hacer crecer tu negocio. <br><br> <strong>Impulsamos Tu Marca En El Mundo digital </strong> </strong>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <img src="img/Diseño.png" alt="logo diseño gráfico" height="100px">
+                        </div>
+                    </div>
+                    <h3>Diseño</h3>
+                    <p>!Diseños Web y Gráficos para tu Negocio!<br>Desde Flyers, Infografías, Publicidad y muchos mas. <br><br>
+                       <strong>Impulsamos Tu Marca En El Mundo digital </strong> 
+                    </p>
+                </div>
+                </div> 
+                <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <img src="img/software.png" alt="imagen de software" style="height: 130px;">
+                        </div>
+                    </div>
+                    <h3>Desarrollo De Software</h3>
+                    <p>Desarrollo, Diseño, Producción, Distribución y/o Venta De Programas Informáticos O Software</p><br>
+                    <p> <strong>Impulsamos Tu Marca En El Mundo digital </strong> </p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                          <img src="img/Mockup.png" alt="icono de mockup"  class="mockup">
+                          <img src="img/mockup2.png" alt="icono de mockup 2"  class="mockup">
+                        </div>
+                    </div>
+                    <h3>Mockups</h3>
+                    <p>Los mockups son prototipos que se presentan al cliente para mostrar el resultado esperado de un proyecto. ¡ADQUIERE UNO!</p> <br>
+                    <p class="marca"> <strong>Impulsamos Tu Marca En El Mundo digital </strong> </p>
+                   
+                </div>
+               </div>
+               <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <img src="img/canvas.png" alt="icono de canvas" height="90px">
+                        </div>
+                    </div>
+                    <h3>Canvas</h3>
+                    <p>Descubre plantillas de presupuesto con elementos para tus campañas, contenidos para redes, presentaciones y más.</p><br>
+                    <p class="marca"> <strong>Impulsamos Tu Marca En El Mundo digital </strong> </p>
+
+                </div> 
+               </div>
+               <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <img src="img/apps.png" alt="logo de Desarrollo de Aplicaciones" class="apps">
+                        </div>
+                    </div>
+                    <h3>Aplicaciones</h3>
+                    <p>¿Está pensando en cómo hacer crecer su negocio? ¿Tienes una una aplicación móvil beneficia a su empresa en más de un sentido.?</p>
+
+                 
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="skill">
+                        <span>Desarrollo Front-End</span>
+                        <img src="logo1.png" alt="habilidades Front-End" class="Front-End">
+                    </div>
+                    <div class="skill">
+                        <span>Desarrollo Back-end</span>
+                        <div>
+                           <img src="logo2.png" alt="habilidades Back-end" class="Back-end">
+                    </div>
+                    <div class="skill">
+                        <span>Software y Herramientas</span>
+                        <div>
+                           <img src="logo3.png" alt="habilidades de softwares y Herramientas" class="Herramientas">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="skill">
+                
+                        <div>
+                            <img src="logo4.png" alt="habilidades Extras" class="Extras">
+                        </div>
+                    </div>
+                   
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <img src="comunicacion.svg" alt="" width="200px" >
+                        <div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <img src="equipo.svg" alt="" width="200px">
+                        <div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <img src="creatividad.svg" alt="" width="200px">
+                        <div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <img src="dedicacion.svg" alt="" width="200px">
+                        <div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <img src="proyecto.svg" alt="" width="200px">
+                        <div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Lic. Administración De Recursos Humanos</h4>
+                        <span class="casa">Universidad Experimental ¨Simón Rodríguez¨</span>
+                        <span class="fecha">2016 - 2023</span>
+                        <p>habilidades adquiridas: <br>
+                          <ul>
+                            <li>Reclutamiento Y Selección de Personal</li>
+                            <li>Organigrama Organizacional</li>
+                            <li>Método de Ishikawa : herramienta utilizada para identificar problemas en un sistema</li>
+                            <li>Registro Y Control de archivos</li>
+                            <li>Nómina</li>
+                        </ul>
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Técnico de Informática</h4>
+                        <span class="casa">Universidad Valle Del Momboy</span>
+                        <span class="fecha">2021 - 2024</span>
+                        <p>habilidades Adquiridas</p>
+                        <ul>
+                            <li>Desarrollo Fronted : <br>Html 5, Css3 & Javascript.</li>
+                            <br>
+                            <li>Base de Datos: <br> Mysql, Mongo Db, Estructura de datos.</li>
+                        </ul>
+                        <br>
+                        <li>Diagramas de Flujo y Herramientas Tecnológicas.</li>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>CS50's Introduction to Computer Science</h4>
+                        <span class="casa">Universidad de Harvard Online</span>
+                        <span class="fecha">2024 - 2024</span>
+                        <p></p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Freelance</span>
+                        <span class="fecha">2021 - actualmente</span>
+                        <p>Desarrollador de Páginas Web Modernas.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Disenañor Gráfico</h4>
+                        <span class="casa">Freelance</span>
+                        <span class="fecha">2024 - actualmente</span>
+                        <p>Diseños de Mockups de productos.<br>
+                           Diseños de en Photoshop.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="trabajos-programacion/trabajo1.jpg" alt="Proyecto de página web de curso css">
+                    <div class="overlay">
+                        <h3>HTML CSS JAVASCRIPT</h3>
+                        <a href="https://scalonastudioplus.github.io/" target="_blank">Ver Trabajo</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="trabajos-programacion/trabajo2.jpg" alt="Lading Page huddle">
+                    <div class="overlay">
+                        <h3>HTML CSS JAVASCRIPT</h3>
+                        <a href="https://silver-starship-bd4f82.netlify.app/" target="_blank">Ver Trabajo</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="trabajos-programacion/trabajo3.jpg" alt="proyecto página web efecto Skew">
+                    <div class="overlay">
+                        <h3>HTML CSS JAVASCRIPT</h3>
+                        <a href="https://warm-swan-57a52e.netlify.app/" target="_blank">Ver Trabajo</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="trabajos-programacion/trabajo4.png" alt="página web isométrica">
+                    <div class="overlay">
+                        <h3>HTML CSS JAVASCRIPT</h3>
+                        <p>Ver Trabajo</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="trabajos-diseños/diseño1.png" alt="Diseño Mockup de pepito">
+                    <div class="overlay">
+                        <h3>Diseño Mockup</h3>
+                        <p>photoshop</p>
+                        <a href="https://www.behance.net/portfolio/editor?project_id=209165499" target="_blank">Ver Trabajo</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="trabajos-diseños/diseño2.png" alt="Diseño Mockup de doritos">
+                    <div class="overlay">
+                        <h3>Diseño Mockup</h3>
+                        <p>photoshop</p>
+                        <a href="https://www.behance.net/portfolio/editor?project_id=209165499" target="_blank">Ver Trabajo</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="trabajos-diseños/diseño3.png" alt="Diseño Funko Pop">
+                    <div class="overlay">
+                        <h3>Diseño Funko Pop</h3>
+                        <p>microsoft designer</p>
+                        <a href="https://www.behance.net/gallery/209165499/Funko-Pop?" target="_blank">Ver Trabajo</a>
+                    </div>    
+                </div>
+                <div class="proyecto">
+                    <img src="trabajos-diseños/diseño5.png" alt="Diseño de Logo">
+                    <div class="overlay">
+                        <h3>Diseño Logo</h3>
+                        <p>photoshop</p>
+                        <a href="https://www.behance.net/jhonescalona" target="_blank">Ver Trabajo</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="trabajos-animacion/animacion1.jpg" alt="Diseño Lading Page animada">
+                    <div class="overlay">
+                        <h3>Lading Page animada</h3>
+                        <p>HTML CSS JAVASCRIPT</p>
+                        <a href="https://chimerical-queijadas-84a567.netlify.app/" target="_blank">Ver Trabajo</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="trabajos-diseños/Google-Clon-Interfaz.png" alt="Diseño Google Clon Interfaz">
+                    <div class="overlay">
+                        <h3>Diseño Google Clon Interfaz</h3>
+                        <p>HTML CSS JAVASCRIPT</p>
+                        <a href="https://melodic-valkyrie-d20b9f.netlify.app/" target="_blank">Ver Trabajo</a>
+                    </div>
+                    
+                </div>
+        </div>
+        
+        
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form action="https://formspree.io/f/meojypnd" method="POST">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="number" placeholder="Número telefónico">
+                    <input type="email" placeholder="Dirección de correo" name="_replyto">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                    </form>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                               Venezuela
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: scalonaplustudio@gmail.com
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                linkedin: <a href="https://www.linkedin.com/in/jhon-escalona-059037329/" style="color: aqua;">@JhonEscalona</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <p>Creado por &copy;Jhon Escalona - 2024 - Impulsamos Tu Marca En El Mundo digital </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
